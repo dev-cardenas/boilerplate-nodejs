@@ -18,3 +18,14 @@ para correr la migracion debes correr
 ```
 yarn sequelize db:migrate
 ```
+
+Para revertir una mala migracion
+
+```
+yarn sequelize db:migrate:undo
+```
+
+Para revertir una toda la migracion
+```
+yarn sequelize db:migrate:undo:all
+```
