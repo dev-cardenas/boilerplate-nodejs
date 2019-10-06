@@ -23,7 +23,7 @@ class Database {
 
   mongo() {
     this.mongoConnection = mongoose.connect(
-      'mongodb://mongoapp:27017/gobarber',
+      'mongodb://mongo-boilerplate:27017/gobarber',
       { useNewUrlParser: true, useUnifiedTopology: true }
     );
   }
